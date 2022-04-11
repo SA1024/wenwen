@@ -131,7 +131,7 @@
     }
 
     function time(obj,futimg){
-        var nowtime = new Date('2022/4/11').getTime(); // 现在时间转换为时间戳
+        var nowtime = new Date('2022/4/11 11:30:00').getTime(); // 现在时间转换为时间戳
         var futruetime =  new Date(futimg).getTime(); // 未来时间转换为时间戳
         var msec = nowtime-futruetime; // 毫秒 未来时间-现在时间
         var time = (msec/1000);  // 毫秒/1000
